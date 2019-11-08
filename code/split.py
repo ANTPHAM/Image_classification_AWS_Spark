@@ -93,7 +93,6 @@ feature_extraction_train1vsAll = os.getcwd() +'\\features\\train1vsAll'
 feature_extraction_test1vsAll = os.getcwd() +'\\features\\test1vsAll'
 
 def split(feature_extraction_train = None,feature_extraction_test = None,cutoff = None):
-    # C:\Users\Eric\OpenClassroom\P2_classif_appli\features\train: C:\Users\Eric\OpenClassroom\P2_classif_appli\features\test
     if cutoff ==  None:
         split_cutoff = float(0.8)
     else:
